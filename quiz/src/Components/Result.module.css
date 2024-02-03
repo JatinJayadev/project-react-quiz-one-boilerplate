@@ -1,0 +1,54 @@
+body{
+    background-color: #453a88;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2{
+    color: green;
+}
+
+h1{
+    color: blue;
+    font-weight: bolder;
+}
+
+.box{
+    background-color: white;
+    width: 50vw;
+    padding: 2vw;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.footer{
+    margin: 3vh;
+}
+
+.footer>button{
+    margin: 1vh;
+    width: 15vh;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.playagain{
+    border: 1px solid blue;
+    color: blue;
+}
+
+.back{
+    border: 1px solid green;
+    color: green;
+}
