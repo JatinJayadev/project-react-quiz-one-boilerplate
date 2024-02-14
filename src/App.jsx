@@ -6,9 +6,9 @@ function App() {
 
   return (
 
-    // <HomeComponent />
+    <HomeComponent />
     // <QuizComponents />
-    <ResultComponent />
+    // <ResultComponent />
   )
 }
 
